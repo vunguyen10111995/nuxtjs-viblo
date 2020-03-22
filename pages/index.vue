@@ -27,6 +27,7 @@ export default {
   fetch({ store }) {
     return axios.get('https://viblo.asia/api/posts?limit=6')
     .then((res) => {
+      console.log(1);
       store.commit('put', res.data.data)
     })
   }, 

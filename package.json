@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "dev-debug": "node --inspect node_modules/.bin/nuxt"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -12,5 +14,6 @@
     "normalize.css": "^7.0.0",
     "nuxt": "^1.0.0-rc11",
     "vuex": "^3.0.1"
-  }
+  },
+  "devDependencies": {}
 }
